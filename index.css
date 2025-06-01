@@ -1,3 +1,7 @@
+body{
+    font-family: Noto Sans TC;
+}
+
 .header{
     width: 1920px;
     height: 90px;
@@ -13,8 +17,6 @@
     font-weight: 700px;
     font-size: 28px;
 }
-
-----------------------------------------------------------------------------
 
 .box1{
     width: 1920px;
@@ -41,7 +43,6 @@
 
 h2{
     width: 688px;
-    font-family: Noto Sans TC;
     font-weight: 900px;
     font-size: 120px;
     color:#0027D5;
@@ -57,7 +58,6 @@ h2{
     font-size: 28px;
     color: #0027D5;
     position: absolute;
-    font-family: Noto Sans TC;
     padding-left: 100px;
     padding-top: 457px;
     z-index: 2;
@@ -71,7 +71,6 @@ h2{
 .box2{
     width: 1077px;
     height: 362px;
-    font-family: Noto Sans TC;
     margin-left: 650px;
     margin-top: -160px;
     align-content: center;
@@ -116,30 +115,28 @@ h3{
 .plan-left{
     width: 480px;
     height: 210px;
-    font-family: Noto Sans TC;
     padding-left: 24px;
     padding-right: 24px;
     margin-left: -40px;
     background: white;
-    align-self: center;
+    align-content: center;
 }
 
 .plan-right{
     width: 480px;
     height: 210px;
-    font-family: Noto Sans TC;
     padding-left: 24px;
     padding-right: 24px;
     margin-right: -40px;
     background: white;
     z-index: 0;
-    align-self: center;
+    align-content: center;
 }
 
 h4{
     font-weight: 700;
     font-size: 28px;
-    font-family: Noto Sans TC;
+    margin: 0 auto;
     position: relative;
 }
 
@@ -147,7 +144,7 @@ h4::before {
   content: "";
   position: absolute;
   left: 0;
-  top: -5px;
+  top: -10px;
   width: 25px;
   height: 5px;
   background-color: blue;
@@ -180,7 +177,7 @@ h4::before {
 
 h5{
     width: 416px;
-    height: 36px;
+    margin: 0;
     font-weight: 700;
     font-size: 28px;
 }
@@ -300,11 +297,15 @@ button{
     background: #F5F5F5;
 }
 
+.way{
+    align-content: center;
+}
+
 h6{
     width: 294px;
     height: 36px;
     margin: 0;
-    text-align: center;
+    line-height: 250%;
     font-weight: 700;
     font-size: 24px;
 }
@@ -313,6 +314,7 @@ ul li{
     list-style: none;
     font-weight: 500;
     font-size: 16px;
+    margin-inline-start: -40px;
 }
 
 .check{
@@ -324,7 +326,8 @@ ul li{
     width: 294px;
     height: 40px;
     text-decoration: none;
-    padding: 5px;
+    padding: 10px;
+    background: #FFFFFF;
     border: 1px solid black;
     border-radius: 40px;
 }
@@ -409,14 +412,17 @@ input{
 .contact{
     width: 1296px;
     height: 60px;
-    font-family: Noto Sans TC;
     font-weight: 500;
     font-size: 28px;
     border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+}
 
 .contact-arrow{
     text-decoration: none;
     color: black;
+    margin-left: auto;
 }
 
 .footer{
@@ -428,7 +434,6 @@ input{
 }
 
 .rights{
-    font-family: Noto Sans TC;
     font-weight: 500;
     font-size: 16px;
 }
