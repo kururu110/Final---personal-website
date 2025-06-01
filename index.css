@@ -1,0 +1,434 @@
+.header{
+    width: 1920px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.begin{
+    color: #000;
+    text-decoration: none;
+    font-weight: 700px;
+    font-size: 28px;
+}
+
+----------------------------------------------------------------------------
+
+.box1{
+    width: 1920px;
+    height: 834px;
+}
+
+.personal{
+    display: flex;
+}
+
+.img1{
+    width: 960px;
+    height: 834px;
+    position: relative;
+    z-index: 1;
+}
+
+.img2{
+    width: 960px;
+    height: 834px;
+    position: absolute;
+    z-index: 1;
+}
+
+h2{
+    width: 688px;
+    font-family: Noto Sans TC;
+    font-weight: 900px;
+    font-size: 120px;
+    color:#0027D5;
+    position: absolute;
+    padding-left: 100px;
+    padding-top: 207px;
+    z-index: 2;
+}
+
+.job{
+    width: 688px;
+    font-weight: 700px;
+    font-size: 28px;
+    color: #0027D5;
+    position: absolute;
+    font-family: Noto Sans TC;
+    padding-left: 100px;
+    padding-top: 457px;
+    z-index: 2;
+}
+
+.self-intro{
+    font-weight: 500px;
+    font-size: 28px;
+}
+
+.box2{
+    width: 1077px;
+    height: 362px;
+    font-family: Noto Sans TC;
+    margin-left: 650px;
+    margin-top: -160px;
+    align-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: #FFFFFF;
+    position: relative;
+    z-index: 2;
+}
+
+h3{
+    width: 1296px;
+    height: 96px;
+    padding-bottom: 40px;
+    font-weight: 700;
+    font-size: 64px;
+    margin: 0 auto;
+}
+
+.box3{
+    width: 1920px;
+    height: 1834px;
+}
+
+.box3-in{
+    width: 1296px;
+    height: 1472px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #6C757D;
+}
+
+.box3-detail{
+    width: 1076px;
+    height: 320px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.plan-left{
+    width: 480px;
+    height: 210px;
+    font-family: Noto Sans TC;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-left: -40px;
+    background: white;
+    align-self: center;
+}
+
+.plan-right{
+    width: 480px;
+    height: 210px;
+    font-family: Noto Sans TC;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-right: -40px;
+    background: white;
+    z-index: 0;
+    align-self: center;
+}
+
+h4{
+    font-weight: 700;
+    font-size: 28px;
+    font-family: Noto Sans TC;
+    position: relative;
+}
+
+h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -5px;
+  width: 25px;
+  height: 5px;
+  background-color: blue;
+  border-radius: 40px;
+}
+
+.more-info{
+    width: 1296px;
+    height: 42px;
+    font-weight: 700;
+    font-size: 28px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 32px;
+}
+
+.date{
+    width: 416px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.tag{
+    color: #0027D5;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+h5{
+    width: 416px;
+    height: 36px;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.describe{
+    width: 416px;
+    height: 48px;
+    font-weight: 500;
+    font-size: 16px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.button{
+    width: 96px;
+    height: 40px;
+    text-decoration: none;
+    background: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+
+.button:hover{
+    color: white;
+    background: blue;
+}
+
+.box4{
+    width: 1920px;
+    height: 756px;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    font-size: 28px;
+    width: 44px;
+    height: 44px;
+    border-radius: 40px;
+    align-self: center;
+}
+
+.box4-in{
+    width: 1432px;
+    height: 476px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.box5{
+    width: 1920px;
+    height: 1422px;
+    padding-top: 80px;
+    margin: 0;
+}
+
+.box5-top{
+    width: 1296px;
+    height: 706px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.box5-img{
+    width: 745px;
+    height: 626px;
+    border: 24px solid #EDEDED;
+    position: relative;
+    z-index: 0;
+}
+
+.box5-help{
+    width: 745px;
+    height: 568px;
+    margin-left: -194px;
+}
+
+.box5-help1{
+    width: 526px;
+    height: 312px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: #FFFFFF;
+    align-content: center;
+    position: absolute;
+    z-index: 1;
+    margin-top: 40px;
+    margin-left: -20px;
+}
+
+.box5-help2{
+    width: 396px;
+    height: 326px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: #F5F5F5;
+    align-content: center;
+    position: absolute;
+    z-index: 2;
+    margin-top: 270px;
+    margin-left: 219px;
+}
+
+.box5-bottom{
+    width: 1296px;
+    height: 316px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    background: #F5F5F5;
+}
+
+h6{
+    width: 294px;
+    height: 36px;
+    margin: 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+ul li{
+    list-style: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.check{
+    color: white;
+    background: #0027D5;
+}
+
+.Podcast{
+    width: 294px;
+    height: 40px;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+
+.e-paper{
+    display: flex;
+}
+
+.e-paper-left{
+    width: 960px;
+    height: 834px;
+}
+
+.e-paper-right{
+    width: 960px;
+    height: 834px;
+    position: absolute;
+}
+
+.subscribe{
+    width: 720px;
+    height: 490px;
+    padding-left: 80px;
+    margin-top: 172px;
+    margin-left: 80px;
+    background: white;
+    position: absolute;
+    align-content: center;
+}
+
+h7{
+    width: 1296px;
+    font-weight: 700;
+    font-size: 64px;
+    font-family: Noto Sans TC;
+}
+
+span{
+    color: #0027D5;
+}
+
+.enter-info{
+    width: 640px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+input{
+    width: 640px;
+    height: 46px;
+    background: #f1f1f1;
+}
+
+.box6{
+    width: 1920px;
+    height: 718px;
+    align-content: center;
+}
+
+.box6-in{
+    width: 1296px;
+    margin: 0 auto;
+}
+
+.email{
+    width: 1296px;
+    height: 58px;
+}
+
+.email-adrress{
+    color: black;
+    font-size: 32px;
+}
+
+.icon{
+    width: 44px;
+    height: 44px;
+}
+
+.contact{
+    width: 1296px;
+    height: 60px;
+    font-family: Noto Sans TC;
+    font-weight: 500;
+    font-size: 28px;
+    border-bottom: 1px solid black;
+
+.contact-arrow{
+    text-decoration: none;
+    color: black;
+}
+
+.footer{
+    width: 1920px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rights{
+    font-family: Noto Sans TC;
+    font-weight: 500;
+    font-size: 16px;
+}
